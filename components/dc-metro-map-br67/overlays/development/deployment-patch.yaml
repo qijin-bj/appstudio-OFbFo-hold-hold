@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-br67
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/push-pyxis-xzlg-tenant/appstudio/dc-metro-map-br67@sha256:0de3185617df0dae0f8b529b4e1f2fe175c32754d7d03376ecf0dfce3ae78148
+        name: my-nodejs
+        resources: {}
+status: {}
