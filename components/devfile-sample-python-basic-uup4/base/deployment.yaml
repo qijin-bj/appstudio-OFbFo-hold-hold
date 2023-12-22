@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-uup4
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/qijing/push-pyxis-xzlg-tenant/appstudio/devfile-sample-python-basic-uup4@sha256:3f65771adb55a3deb600ffd5546a119cd0a4fb1bd9517fe9ea83fb3f11f65cf7
         name: my-python
         ports:
         - containerPort: 8081
